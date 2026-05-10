@@ -75,7 +75,6 @@ public class MainActivity extends BridgeActivity {
     @Override
     public void onConfigurationChanged(Configuration newConfig) {
         super.onConfigurationChanged(newConfig);
-        // Ekran yan döndürüldüğünde otomatik tam ekrana geç
         setupFullScreen();
     }
 
