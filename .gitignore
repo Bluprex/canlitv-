@@ -1,7 +1,19 @@
+# Bağımlılıklar
 node_modules/
+
+# Derleme çıktıları
+dist/
 build/
-coverage/
-.DS_Store
-*.log
+
+# IDE ayarları
+.idea/
+.vscode/
+*.iml
+
+# Çevresel değişkenler
 .env*
 !.env.example
+
+# Diğer
+.DS_Store
+*.log
