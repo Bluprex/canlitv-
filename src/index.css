@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --color-primary: #dc2626;
+  --color-bg-main: #0a0502;
+  --color-bg-sidebar: #050201;
+}
+
+body {
+  @apply bg-[#0a0502] text-white antialiased selection:bg-primary/30;
+  background-image: radial-gradient(circle at 50% -20%, #dc262610 0%, transparent 60%);
+}
+
+.immersive-ring {
+  @apply ring-1 ring-white/10 shadow-2xl;
+}
+
+.glass-panel {
+  @apply bg-white/5 border border-white/10 backdrop-blur-[20px];
+}
+
+.text-glow {
+  text-shadow: 0 0 20px rgba(220, 38, 38, 0.4);
+}
+
+@utility no-scrollbar {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

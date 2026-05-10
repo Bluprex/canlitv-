@@ -1,0 +1,11 @@
+{
+  "name": "Canlı Tv+",
+  "description": "Modern Canlı TV izleme ve yayın akışı takip uygulaması. Favori kanallarınızı kaydedin ve programları kaçırmayın.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "Live Streaming",
+    "EPG Management",
+    "User Profiles",
+    "Favorites System"
+  ]
+}
